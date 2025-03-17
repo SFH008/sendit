@@ -1,0 +1,45 @@
+{
+  "subpcb": {
+    "sendit.kicad_pcb": {
+      "anchor": "U2"
+    },
+    "sender.kicad_pcb": {
+      "anchor": "INPUT1"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/3ea0b954-bebd-45b5-a2b1-1ea30816180b": {
+      "checked": true
+    },
+    "/410443a3-1fdf-46b4-9bbf-c1a7958cf342": {
+      "checked": true
+    },
+    "/54f1d4ed-8f92-40ec-a608-e7b5668efe0d": {
+      "checked": true
+    },
+    "/824df7cd-7a9d-43f3-9476-f90fcf6abaf9": {
+      "checked": true
+    },
+    "/968a6280-f3b3-4c36-b277-bf2550c8a45f": {
+      "checked": true
+    },
+    "/9cb69a2b-a1ad-4ce4-9e74-b03363b8dfc4": {
+      "checked": true
+    },
+    "/b74372e1-8e8c-456e-860f-c00883d6d009": {
+      "checked": false
+    },
+    "/bcaa0672-f11e-4043-96de-7f8731cc20f1": {
+      "checked": true
+    },
+    "/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7": {
+      "checked": false
+    },
+    "/f24de796-371b-4eaf-bbe5-ce950dec4a0d": {
+      "checked": true
+    }
+  }
+}

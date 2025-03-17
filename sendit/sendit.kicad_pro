@@ -545,7 +545,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -580,44 +580,212 @@
       "Root"
     ],
     [
-      "410443a3-1fdf-46b4-9bbf-c1a7958cf342",
-      "SENDER 1"
+      "d62eac9c-79f7-42c7-961a-243a4f5db43f",
+      "Analog Channel 1"
     ],
     [
-      "54f1d4ed-8f92-40ec-a608-e7b5668efe0d",
-      "SENDER 2"
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
     ],
     [
-      "968a6280-f3b3-4c36-b277-bf2550c8a45f",
-      "SENDER 3"
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
     ],
     [
-      "9cb69a2b-a1ad-4ce4-9e74-b03363b8dfc4",
-      "SENDER 4"
+      "3be26641-bb38-49f4-a8c8-35d985e646a7",
+      "ADC2"
     ],
     [
-      "f24de796-371b-4eaf-bbe5-ce950dec4a0d",
-      "SENDER 5"
+      "5dcf4aa4-b4c0-4eb4-9810-8e1da6fba809",
+      "Analog Channel 5"
     ],
     [
-      "bcaa0672-f11e-4043-96de-7f8731cc20f1",
-      "SENDER 6"
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
     ],
     [
-      "824df7cd-7a9d-43f3-9476-f90fcf6abaf9",
-      "SENDER 7"
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
     ],
     [
-      "3ea0b954-bebd-45b5-a2b1-1ea30816180b",
-      "SENDER 8"
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "8214e645-c73d-48c5-bbb1-69f276b453fe",
+      "Analog Channel 2"
     ],
     [
       "d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7",
       "ADC1"
     ],
     [
-      "b74372e1-8e8c-456e-860f-c00883d6d009",
-      "ADC2"
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "06289466-09ce-4e8d-a3fe-f20bb105c2b9",
+      "Analog Channel 3"
+    ],
+    [
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "dea3d2e6-dd3a-44c1-a00c-3b7e188a1340",
+      "Analog Channel 4"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "336de2d2-126c-456c-9b27-fa88f8fd80ba",
+      "Power Supply"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "edcf8ea2-5577-432a-b9e3-a0cdd8283da4",
+      "Analog Channel 6"
+    ],
+    [
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "81493a67-66de-41a8-9145-e2b5bf5e8fe3",
+      "Analog Channel 7"
+    ],
+    [
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "9719621a-b94a-4b2b-95d3-3cdc5abcb21e",
+      "Analog Channel 8"
+    ],
+    [
+      "8075c52c-2c5e-405c-a055-f941d67d7927",
+      "ADC MUX - TMUX4052"
+    ],
+    [
+      "9d7f74c0-fbe1-4786-aaf7-bd92be0daa78",
+      "0-32v"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "409827bd-f24e-4e0b-be0c-8fe2c7833c0b",
+      "4-20mA"
+    ],
+    [
+      "b4762ba0-279c-4ff6-acb2-454fbb3e9eb7",
+      "0-5v"
+    ],
+    [
+      "a39a4809-b17d-4cec-8315-6a7318917ec7",
+      "MicroSD"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
+    ],
+    [
+      "e2c3601c-5184-4fc5-bf40-77e692ed7f2c",
+      "0-1000 ohm"
     ]
   ],
   "text_variables": {}
