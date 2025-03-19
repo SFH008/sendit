@@ -1,14 +1,125 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b6c17089-6c49-4016-aacc-6f0a5f000b32")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,7 +189,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -90,7 +201,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -137,12 +248,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -233,7 +349,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "4-20ma Current Sensor"
+		(exclude_from_sim no)
+		(at 123.952 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e5e93fb-2ad3-4664-b081-810ba125e8bf")
+	)
+	(junction
+		(at 118.11 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ddcd6bc-1d67-4126-9726-16930bb399ee")
+	)
+	(junction
+		(at 128.27 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b2c232d-c0f7-492b-9afe-1ca118803edd")
 	)
 	(junction
 		(at 123.19 87.63)
@@ -243,7 +382,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 87.63) (xy 130.81 87.63)
+			(xy 123.19 87.63) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -263,7 +402,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 123.19 87.63)
+			(xy 118.11 87.63) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3db00d-4cf9-4aad-a536-eaba8b379bfe")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -281,20 +430,19 @@
 		)
 		(uuid "a9404552-d84a-45d6-98db-70f435991084")
 	)
-	(text "4-20ma Current Sensor"
-		(exclude_from_sim no)
-		(at 123.952 79.756 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 129.54 87.63)
 		)
-		(uuid "2e5e93fb-2ad3-4664-b081-810ba125e8bf")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0ae23d-6885-4a4b-b578-fdef38a53027")
 	)
 	(hierarchical_label "INPUT"
 		(shape input)
 		(at 116.84 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -305,8 +453,7 @@
 	)
 	(hierarchical_label "OUTPUT"
 		(shape input)
-		(at 130.81 87.63 0)
-		(fields_autoplaced yes)
+		(at 129.54 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -314,6 +461,101 @@
 			(justify left)
 		)
 		(uuid "f9e10cd7-b2b5-49f4-9338-f83e7a3648c3")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 128.27 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0034fb5f-4722-4fe1-ad3d-856ffc534d8a")
+		(property "Reference" "TP65"
+			(at 126.238 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 130.81 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccbe0129-79ce-4576-9b23-a1892c0795ed")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/06289466-09ce-4e8d-a3fe-f20bb105c2b9/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP68")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/5dcf4aa4-b4c0-4eb4-9810-8e1da6fba809/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP67")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/81493a67-66de-41a8-9145-e2b5bf5e8fe3/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP71")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/8214e645-c73d-48c5-bbb1-69f276b453fe/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP66")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/9719621a-b94a-4b2b-95d3-3cdc5abcb21e/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP72")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d62eac9c-79f7-42c7-961a-243a4f5db43f/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP65")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/dea3d2e6-dd3a-44c1-a00c-3b7e188a1340/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP69")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/edcf8ea2-5577-432a-b9e3-a0cdd8283da4/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP70")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -325,7 +567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b0a3a5-af30-4098-801d-8235a76fdfa9")
-		(property "Reference" "R22"
+		(property "Reference" "R8"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -423,6 +665,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64fbb673-03fc-4380-9a23-7d8caeb81964")
+		(property "Reference" "TP17"
+			(at 115.824 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e54b1cb2-6dc5-4b93-a0b7-59837ed17c97")
+		)
+		(instances
+			(project ""
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/06289466-09ce-4e8d-a3fe-f20bb105c2b9/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/5dcf4aa4-b4c0-4eb4-9810-8e1da6fba809/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/81493a67-66de-41a8-9145-e2b5bf5e8fe3/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/8214e645-c73d-48c5-bbb1-69f276b453fe/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/9719621a-b94a-4b2b-95d3-3cdc5abcb21e/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d62eac9c-79f7-42c7-961a-243a4f5db43f/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/dea3d2e6-dd3a-44c1-a00c-3b7e188a1340/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP21")
+					(unit 1)
+				)
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/edcf8ea2-5577-432a-b9e3-a0cdd8283da4/409827bd-f24e-4e0b-be0c-8fe2c7833c0b"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 97.79 0)
 		(unit 1)
@@ -432,7 +769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2abba8-99e4-4365-b8d8-0f9856b21e35")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR019"
 			(at 123.19 104.14 0)
 			(effects
 				(font
