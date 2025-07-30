@@ -1214,7 +1214,7 @@
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a2803e9-81c4-4c8a-9d70-54bf026d73b1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR019"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -1280,11 +1280,11 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/3be26641-bb38-49f4-a8c8-35d985e646a7"
-					(reference "#PWR012")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7"
-					(reference "#PWR030")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1375,7 +1375,7 @@
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1391,7 +1391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ed85930-5ae3-4ebd-9b62-0da0b1c0c5af")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -1454,11 +1454,11 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/3be26641-bb38-49f4-a8c8-35d985e646a7"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7"
-					(reference "R12")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1574,7 +1574,7 @@
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1590,7 +1590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d201e0b0-5f4e-4a46-b7b8-8ef45342f2a2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -1640,11 +1640,11 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/3be26641-bb38-49f4-a8c8-35d985e646a7"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7"
-					(reference "#PWR029")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

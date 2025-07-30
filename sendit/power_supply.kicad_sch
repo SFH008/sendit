@@ -1513,7 +1513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29caa605-ad2d-4181-9d5d-de81567dd4b5")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR067"
 			(at 129.54 121.92 0)
 			(effects
 				(font
@@ -1563,7 +1563,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "#PWR0113")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1579,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a8bb961-989c-49f0-acb1-ac09282f0698")
-		(property "Reference" "C24"
+		(property "Reference" "C12"
 			(at 182.88 90.1762 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1633,7 +1633,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "C24")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1649,7 +1649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c0d8147-7b9c-4fff-abcd-ee6205d8ec2f")
-		(property "Reference" "R69"
+		(property "Reference" "R44"
 			(at 157.48 102.8699 0)
 			(effects
 				(font
@@ -1667,7 +1667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 104.14 0)
 			(effects
 				(font
@@ -1703,7 +1703,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "R69")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1719,7 +1719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3586b627-5b84-4314-a401-f511bf25982e")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 129.54 87.63 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 		(instances
 			(project ""
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "U9")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d30739f-d656-4800-b9e1-b5cb1e385b72")
-		(property "Reference" "C23"
+		(property "Reference" "C11"
 			(at 170.18 90.1762 0)
 			(effects
 				(font
@@ -1816,7 +1816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -1852,7 +1852,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "C23")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1884,7 +1884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Ferrocore_DLG-0403"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -1904,6 +1904,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 129.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2929419"
+			(at 129.54 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "956edfd3-9dd7-4385-980b-ce9cc155b05a")
-		(property "Reference" "R68"
+		(property "Reference" "R43"
 			(at 157.48 90.1699 0)
 			(effects
 				(font
@@ -1954,7 +1963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -1990,7 +1999,7 @@
 		(instances
 			(project ""
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "R68")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987d1b92-4b5c-4f7d-9e8f-e4dc251c190e")
-		(property "Reference" "C22"
+		(property "Reference" "C10"
 			(at 105.41 100.3362 0)
 			(effects
 				(font
@@ -2015,7 +2024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uF"
 			(at 105.41 102.8762 0)
 			(effects
 				(font
@@ -2024,7 +2033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.87 101.6 0)
 			(effects
 				(font
@@ -2060,7 +2069,7 @@
 		(instances
 			(project ""
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "C22")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2076,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab838d0e-d27f-4e3e-beae-bb2696efeac8")
-		(property "Reference" "D17"
+		(property "Reference" "D6"
 			(at 147.6375 76.2 0)
 			(effects
 				(font
@@ -2128,7 +2137,7 @@
 		(instances
 			(project ""
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D17")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2144,7 +2153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb25bf19-3f9f-44aa-abfe-d3aef2125604")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR068"
 			(at 180.34 83.82 0)
 			(effects
 				(font
@@ -2194,7 +2203,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "#PWR0112")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c231b1d3-3f48-4f05-8ca6-bdf7c28acf0b")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR066"
 			(at 102.87 83.82 0)
 			(effects
 				(font
@@ -2260,7 +2269,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "#PWR0111")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
