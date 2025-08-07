@@ -1597,7 +1597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1616,6 +1616,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1764,6 +1773,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7722"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d7ca560-1694-4307-b201-4afd0b049006")
 		)
@@ -1835,6 +1853,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105620"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -2060,6 +2087,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bffcb0b5-131b-428a-90c1-e50fb5c0ece6")
 		)
@@ -2120,6 +2156,15 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82046"
 			(at 147.32 82.55 0)
 			(effects
 				(font

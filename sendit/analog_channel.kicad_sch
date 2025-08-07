@@ -3247,7 +3247,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k 0.1%"
+		(property "Value" "1k 1%"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C110776"
 			(at 138.43 91.44 0)
 			(effects
 				(font
@@ -3911,6 +3911,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49286564"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3b0a0da-a5d7-480e-bc44-d5b45a7bfb7a")
 		)
@@ -4127,7 +4136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C705741"
 			(at 138.43 60.96 0)
 			(effects
 				(font
@@ -4292,7 +4301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "910 0.1%"
+		(property "Value" "1k 0.1%"
 			(at 140.97 157.48 0)
 			(effects
 				(font
@@ -4328,7 +4337,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C110776"
 			(at 138.43 156.21 0)
 			(effects
 				(font
@@ -4519,6 +4528,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49286564"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -4758,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C861121"
 			(at 138.43 53.34 0)
 			(effects
 				(font
@@ -5053,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C870446"
 			(at 138.43 30.48 0)
 			(effects
 				(font
@@ -5124,7 +5142,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470 0.1%"
+		(property "Value" "560 0.1%"
 			(at 140.97 149.8599 0)
 			(effects
 				(font
@@ -5160,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C860442"
 			(at 138.43 148.59 0)
 			(effects
 				(font
@@ -5426,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -5453,7 +5471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95781"
+		(property "LCSC" ""
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -5510,7 +5528,7 @@
 		(at 77.47 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5722,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -5758,7 +5776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C14663"
 			(at 226.06 93.98 0)
 			(effects
 				(font
@@ -5956,6 +5974,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49286562"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "d0e5a635-a52e-4e33-8fae-1d6077b220fc")
 		)
@@ -6016,7 +6043,7 @@
 		(at 226.06 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
