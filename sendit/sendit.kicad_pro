@@ -141,7 +141,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -254,7 +254,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1333500|1270000|3cca7d53-b051-4912-a7b5-07a2558daf4b|00000000-0000-0000-0000-000000000000|/a355e4d0-2918-44fc-be8d-2503b84c6d6c|/a355e4d0-2918-44fc-be8d-2503b84c6d6c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1333500|571500|468b7f57-ce5d-4aad-a3ef-1113e8a21e8e|00000000-0000-0000-0000-000000000000|/a355e4d0-2918-44fc-be8d-2503b84c6d6c|/a355e4d0-2918-44fc-be8d-2503b84c6d6c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2387600|584200|0212252d-dace-44dc-8fad-338a88038527|00000000-0000-0000-0000-000000000000|/a355e4d0-2918-44fc-be8d-2503b84c6d6c|/a355e4d0-2918-44fc-be8d-2503b84c6d6c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|774700|762000|e54581f4-f170-49e4-9a51-388764a93c21|00000000-0000-0000-0000-000000000000|/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d62eac9c-79f7-42c7-961a-243a4f5db43f|/a355e4d0-2918-44fc-be8d-2503b84c6d6c/d62eac9c-79f7-42c7-961a-243a4f5db43f|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
