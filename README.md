@@ -3,5 +3,6 @@ ESP32 based tank level sender monitor.
 
 # Todo
 
-* convert to esp32-s3-pico module
-* add name silkscreen like brineomatic
+* check all parts
+* re-route the board
+* test upload of pcba on jlcpcb
