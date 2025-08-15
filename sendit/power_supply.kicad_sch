@@ -1379,6 +1379,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1625,6 +1750,12 @@
 		(uuid "483b11fb-0cb6-40b9-8b41-3048ac6c7ddd")
 	)
 	(junction
+		(at 83.82 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d64e67f-311f-4e85-8568-d96d5ae0eece")
+	)
+	(junction
 		(at 218.44 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,6 +1843,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 110.49) (xy 83.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e1abea-9d21-4c43-a688-0f19b6b5d268")
+	)
+	(wire
+		(pts
 			(xy 218.44 82.55) (xy 218.44 93.98)
 		)
 		(stroke
@@ -1759,6 +1900,16 @@
 			(type default)
 		)
 		(uuid "15ba28bf-1c97-4d7d-8124-876e39a83d40")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 50.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae251f5-04b5-4cba-bcd4-90895b407d4e")
 	)
 	(wire
 		(pts
@@ -1932,6 +2083,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 95.25) (xy 50.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf81f28-624e-490a-9b06-8e4edb7b46c7")
+	)
+	(wire
+		(pts
 			(xy 182.88 82.55) (xy 195.58 82.55)
 		)
 		(stroke
@@ -1939,6 +2100,16 @@
 			(type default)
 		)
 		(uuid "8e45939f-cab6-4390-99fa-3d9256ea2137")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 50.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9339f15b-2cbe-47bb-8b62-ee56ca5a10f0")
 	)
 	(wire
 		(pts
@@ -2244,6 +2415,94 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b25ff66-1a18-43ab-959f-5894056eb5da")
+		(property "Reference" "D11"
+			(at 54.61 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR"
+			(at 54.61 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94869"
+			(at 50.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f2f2ebc-bee5-48d5-95fb-becbb2184142")
+		)
+		(pin "2"
+			(uuid "ba0a1525-3546-49e5-b0ca-1b67a14aa387")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3197,6 +3456,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 50.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a437b9b0-e83c-4090-8aaa-bcacc3cb0a92")
+		(property "Reference" "R81"
+			(at 53.34 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 53.34 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22962"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73432f7-24ac-4fcc-8752-c427e7225d79")
+		)
+		(pin "2"
+			(uuid "9acd722f-83d3-4c04-b083-e9ad6502ce2f")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:MBR0530")
 		(at 147.32 82.55 180)
 		(unit 1)
@@ -3488,6 +3826,72 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7539d7-e4b2-4be3-a5c7-9c75de932a98")
+		(property "Reference" "#PWR05"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc70b29-b7bf-4d23-98ef-4a0da9e82d0f")
+		)
+		(instances
+			(project ""
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
