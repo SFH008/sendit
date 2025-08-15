@@ -2721,12 +2721,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "13a7322f-39ec-4242-85ae-24095617df1b")
 		(at 115.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP1"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -2790,7 +2790,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "709e0a1d-2f34-462b-a5ee-23b04c3ba395")
+			(uuid "977f6452-d9b4-4a9d-b53c-e4ee33b40205")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2801,7 +2801,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "619b8a5e-2fed-481d-95d9-3834979020cb")
+			(uuid "26295edb-0a1d-4fd3-8a9e-fcf528c7889b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -2814,10 +2814,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 59 "Net-(INPUT1-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -7505,12 +7507,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "34742946-2d82-4fa5-98e4-e6b10c7bf7aa")
 		(at 213.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP15"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -7574,7 +7576,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "115d8c4e-3fde-42b4-beea-3e58e339232a")
+			(uuid "717abc60-a16c-4037-b8f6-b49a975c8bc9")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7585,7 +7587,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "60257ca6-2265-49f9-bd1f-3b0ecd85b6e8")
+			(uuid "9a4b4aa0-b122-42ab-9ed3-867272f43f79")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -7598,10 +7600,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 66 "Net-(INPUT8-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -17009,12 +17013,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "6d4e1926-dfae-4da9-af69-710de4c0cbb9")
 		(at 129.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP5"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -17078,7 +17082,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "40b6f75b-925d-457c-8240-df01c79324c7")
+			(uuid "529cd431-9434-4731-a8ff-b942524e5b45")
 		)
 		(fp_circle
 			(center 0 0)
@@ -17089,7 +17093,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8c7c1f73-c5d4-42cd-b5e2-67947fe07d47")
+			(uuid "e82b1ce5-7dba-4b97-a194-931a754a45b6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -17102,10 +17106,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 61 "Net-(INPUT3-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -17325,12 +17331,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "73398ef7-a12e-4459-8ebc-1cbdc78ce7fe")
 		(at 143.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP7"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -17394,7 +17400,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "b5d2838a-fdcc-4f27-b4e4-6f9e5c31cb9d")
+			(uuid "1c8ec0c0-5ed2-4f74-8235-3a9816d87a3b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -17405,7 +17411,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "32a43c35-c4b1-45be-a5b7-63a8c85f414f")
+			(uuid "eaeb9f9b-efa4-4029-a90e-a5f1b62c2ca0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -17418,10 +17424,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 62 "Net-(INPUT4-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -24341,12 +24349,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "90b5d0be-c237-4a0b-838c-805d826fe1d8")
 		(at 185.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP11"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -24410,7 +24418,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "14c5f8ce-2f86-4f4b-a4fa-f9cf63eee69a")
+			(uuid "dee650c5-db6a-420d-97de-4d43252cc249")
 		)
 		(fp_circle
 			(center 0 0)
@@ -24421,7 +24429,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "eeaa64e7-d713-408a-9cb8-fcb30e3db7ba")
+			(uuid "c700d36e-2ca4-4941-9e79-0015706e0c20")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -24434,10 +24442,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 64 "Net-(INPUT6-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -27998,12 +28008,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "9e4c401b-6e5a-4b8a-9257-75a2b8781397")
 		(at 199.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP13"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -28067,7 +28077,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "77bb5745-48b3-4404-939b-875f8cdb9151")
+			(uuid "a123c207-0274-4b94-9e6f-400e6f7988de")
 		)
 		(fp_circle
 			(center 0 0)
@@ -28078,7 +28088,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "49028ff5-f0d2-4969-8eb2-943ec322c9c4")
+			(uuid "ab626ef4-96c7-4f89-b914-e43147d77c21")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -28091,10 +28101,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 65 "Net-(INPUT7-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -31768,12 +31780,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "b20859f7-1012-4958-a9d7-fb0f2cd46eac")
 		(at 157.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP9"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -31837,7 +31849,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "976d4e4d-c854-4c3a-b2ac-28818ed70cfc")
+			(uuid "d0542520-c214-4152-b9a0-077014f24cd3")
 		)
 		(fp_circle
 			(center 0 0)
@@ -31848,7 +31860,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b25952ab-51d9-49a3-8eac-028fbb1ab772")
+			(uuid "5c8b1e3d-49e4-4710-a9c8-5d32ed241aff")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -31861,10 +31873,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 63 "Net-(INPUT5-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
@@ -34116,12 +34130,12 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "c36b60dc-c54a-4f01-ada0-e3c1ac11b8d7")
 		(at 171.4 107.2)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
+		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
+		(tags "test point THT pad")
 		(property "Reference" "TP3"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
@@ -34185,7 +34199,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "a0d8ad7c-4cd3-419f-91ee-1be132a80788")
+			(uuid "cb104edf-c6d5-4563-8f1a-1786969ec418")
 		)
 		(fp_circle
 			(center 0 0)
@@ -34196,7 +34210,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f218300a-d318-4f74-8752-de258e053f6b")
+			(uuid "824bb651-0058-4fc8-b919-39688b897a79")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.45 0)
@@ -34209,10 +34223,12 @@
 				)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1 1)
-			(layers "F.Cu" "F.Mask")
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net 60 "Net-(INPUT2-Pin_2)")
 			(pinfunction "1")
 			(pintype "passive")
