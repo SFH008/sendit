@@ -1829,6 +1829,10 @@
 		(uuid "390d43ac-2d1c-4e25-8397-b3c00999709f")
 	)
 	(no_connect
+		(at 191.77 62.23)
+		(uuid "3ab3e812-fc9a-4bee-8feb-4954c98e1a35")
+	)
+	(no_connect
 		(at 191.77 69.85)
 		(uuid "4378bd30-a2a1-47bf-8b5e-d29960cf0d4f")
 	)
@@ -1861,8 +1865,8 @@
 		(uuid "a16f97d1-53d0-4141-b358-d8761fe63111")
 	)
 	(no_connect
-		(at 219.71 59.69)
-		(uuid "a6fed0a6-312d-4abb-879e-eec53246ecbb")
+		(at 191.77 59.69)
+		(uuid "bb45e86b-fd76-498f-9bb0-e299b51a7542")
 	)
 	(no_connect
 		(at 191.77 100.33)
@@ -1954,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 62.23) (xy 227.33 62.23)
+			(xy 219.71 59.69) (xy 227.33 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2024,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 62.23) (xy 238.76 60.96)
+			(xy 238.76 59.69) (xy 238.76 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2034,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 62.23) (xy 238.76 62.23)
+			(xy 232.41 59.69) (xy 238.76 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2208,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 60.96) (xy 245.11 69.85)
+			(xy 245.11 58.42) (xy 245.11 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2640,7 +2644,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23162"
 			(at 234.95 90.17 0)
 			(effects
 				(font
@@ -2823,6 +2827,15 @@
 		)
 		(property "LCSC Part Name" "ESP32-S3微控制器2.4GHz Wi-Fi开发板240MHz双核处理器"
 			(at 205.232 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18198404"
+			(at 205.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3245,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74bfb250-1931-4f5e-bb38-c2109a4f7790")
 		(property "Reference" "LOGO1"
@@ -3356,17 +3369,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 60.96 0)
+		(at 238.76 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89d437ef-a3f8-47eb-989b-f1422b5430fb")
 		(property "Reference" "#PWR03"
-			(at 238.76 64.77 0)
+			(at 238.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3387,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 55.88 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +3395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,6 +3428,83 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 229.87 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d0adfbd-2b93-48fc-b0f6-4578b4c9dfd4")
+		(property "Reference" "F10"
+			(at 229.87 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A / 6V"
+			(at 229.87 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C914095"
+			(at 229.87 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dd1df83-b4e4-4d54-b546-7b26128841fd")
+		)
+		(pin "2"
+			(uuid "4aa5dd48-8947-4e5f-8d79-26a5234d7a36")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
+					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -3561,8 +3650,8 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board no)
-		(dnp no)
+		(on_board yes)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b758bbdd-e353-429b-bbbc-2ed610a27723")
 		(property "Reference" "LOGO2"
@@ -3621,16 +3710,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 245.11 60.96 0)
+		(at 245.11 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf792638-3b3e-4867-9fdc-85a2c1d81304")
 		(property "Reference" "#PWR04"
-			(at 245.11 64.77 0)
+			(at 245.11 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3727,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 245.11 55.88 0)
+			(at 245.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 60.96 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 60.96 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 60.96 0)
+			(at 245.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4362,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23162"
 			(at 245.11 90.17 0)
 			(effects
 				(font
@@ -4293,83 +4381,6 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
 					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse_Small")
-		(at 229.87 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2d426b3-4728-4f30-917c-aa732a91b495")
-		(property "Reference" "F10"
-			(at 229.87 56.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200mA"
-			(at 229.87 59.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 224.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C126816"
-			(at 229.87 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cdcc122-acd1-4806-b4e9-f6ec9059bd77")
-		)
-		(pin "2"
-			(uuid "df3e6119-4514-4a4e-8172-6a6cb5f7973a")
-		)
-		(instances
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -4525,7 +4536,7 @@
 				)
 			)
 		)
-		(property "Value" "750mA"
+		(property "Value" "750mA / 6v"
 			(at 229.87 72.39 90)
 			(effects
 				(font
