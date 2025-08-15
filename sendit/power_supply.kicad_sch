@@ -2910,7 +2910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Ferrocore_DLG-0403"
+		(property "Footprint" "Inductor_SMD:L_APV_ANR252012"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -2937,7 +2937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2929419"
+		(property "LCSC" "C5832376"
 			(at 129.54 82.55 90)
 			(effects
 				(font
