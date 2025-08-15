@@ -2391,9 +2391,9 @@
 		)
 		(uuid "5d3bcf30-21b0-4d3c-920d-8cb6c732d2e0")
 	)
-	(text "Input Stage"
+	(text "Voltage Select"
 		(exclude_from_sim no)
-		(at 59.69 59.182 0)
+		(at 60.96 60.706 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2438,16 +2438,6 @@
 			)
 		)
 		(uuid "8ebcab51-fbd7-46ae-8725-2cf69512414b")
-	)
-	(text "VOLTAGE\nSELECT"
-		(exclude_from_sim no)
-		(at 54.61 65.532 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "927beb56-bdf1-4edf-b15b-5699b7c19892")
 	)
 	(text "1k-10k ohm Resistance Sensor"
 		(exclude_from_sim no)
