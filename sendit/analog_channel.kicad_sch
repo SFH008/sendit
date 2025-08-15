@@ -3884,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 95.25 90.17 0)
 			(effects
 				(font
@@ -3911,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49286564"
+		(property "LCSC" "C32713285"
 			(at 95.25 90.17 0)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -4536,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49286564"
+		(property "LCSC" "C32713285"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -5947,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -5974,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49286562"
+		(property "LCSC" "C32713283"
 			(at 73.66 68.58 0)
 			(effects
 				(font
