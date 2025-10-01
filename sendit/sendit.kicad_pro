@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_filters_mismatch|100000000|97700000|d8c19c73-b089-47f1-9344-c1769d2184a2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "footprint_filters_mismatch|111700000|94300000|9bcdc4d0-38b2-4661-b1d9-65dbb19b1e0d|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -100,23 +96,11 @@
           ""
         ],
         [
-          "footprint_filters_mismatch|71700000|113500000|aefec4b1-1e34-4d23-b553-e485604d683b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "missing_courtyard|84843750|101322500|90d1e475-b892-43d5-b6b4-7ed22d195d45|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "missing_courtyard|85000000|86400000|1d32969b-86f5-4ec9-82f5-2edda3b48a32|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|81041250|126000000|73af9273-385b-49f2-8ce7-70f1e6cb3612|7c7243db-3537-457a-bc26-5c58f636a881",
-          ""
-        ],
-        [
-          "silk_edge_clearance|88652750|126000000|73af9273-385b-49f2-8ce7-70f1e6cb3612|73cc515d-5c00-4f2f-a01d-f6aedf53aa44",
           ""
         ]
       ],
@@ -587,7 +571,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sendit.step",
       "svg": "",
       "vrml": ""
     },
@@ -770,8 +754,16 @@
       "Analog Channel 1"
     ],
     [
-      "3be26641-bb38-49f4-a8c8-35d985e646a7",
-      "ADC2"
+      "2c30bc70-ed79-4c81-9563-e6b5b53d9914",
+      "ESP32-S3"
+    ],
+    [
+      "012ce78d-7e37-48fe-89b4-0e95092577e6",
+      "ADC"
+    ],
+    [
+      "730ddc54-308b-4950-8f3a-2beb2098c60b",
+      "Piezo"
     ],
     [
       "5dcf4aa4-b4c0-4eb4-9810-8e1da6fba809",
@@ -780,10 +772,6 @@
     [
       "8214e645-c73d-48c5-bbb1-69f276b453fe",
       "Analog Channel 2"
-    ],
-    [
-      "d44ed8a4-b2b5-49ad-a2f4-3423c838bfc7",
-      "ADC1"
     ],
     [
       "06289466-09ce-4e8d-a3fe-f20bb105c2b9",
@@ -808,10 +796,6 @@
     [
       "9719621a-b94a-4b2b-95d3-3cdc5abcb21e",
       "Analog Channel 8"
-    ],
-    [
-      "a39a4809-b17d-4cec-8315-6a7318917ec7",
-      "MicroSD"
     ]
   ],
   "text_variables": {}
