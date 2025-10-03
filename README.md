@@ -4,7 +4,6 @@ ESP32 based tank level sender monitor.
 # Todo
 
 * via stitching / ground planes
-* silkscreen
 * bom check
 * placement check
 
