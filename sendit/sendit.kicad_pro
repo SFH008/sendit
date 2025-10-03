@@ -684,13 +684,31 @@
           "label": "Manufacturer Part",
           "name": "Manufacturer Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Position Offset",
+          "name": "Position Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rotation Offset",
+          "name": "Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT",
+          "name": "ALT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
