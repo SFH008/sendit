@@ -2637,7 +2637,7 @@
 		)
 		(uuid "8ebcab51-fbd7-46ae-8725-2cf69512414b")
 	)
-	(text "1k-10k ohm Resistance Sensor"
+	(text "10k Pullup"
 		(exclude_from_sim no)
 		(at 118.872 121.158 0)
 		(effects
@@ -2672,16 +2672,6 @@
 			)
 		)
 		(uuid "a2b81b6a-c8ec-4789-a6b4-c5da0170d640")
-	)
-	(text "(resistor wired from input to ground)"
-		(exclude_from_sim no)
-		(at 118.872 123.698 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab8a3cda-d9b5-458e-a874-50d16a498aaa")
 	)
 	(text "5v to 3.3v Voltage Divider"
 		(exclude_from_sim no)
@@ -4513,7 +4503,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5K 0.1%"
+		(property "Value" "15k 0.1%"
 			(at 120.65 73.66 0)
 			(effects
 				(font
@@ -4549,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C705741"
+		(property "LCSC" ""
 			(at 118.11 72.39 0)
 			(effects
 				(font
@@ -5436,7 +5426,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "13K 0.1%"
+		(property "Value" "130k 0.1%"
 			(at 120.65 66.0399 0)
 			(effects
 				(font
@@ -5472,7 +5462,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C861121"
+		(property "LCSC" ""
 			(at 118.11 64.77 0)
 			(effects
 				(font

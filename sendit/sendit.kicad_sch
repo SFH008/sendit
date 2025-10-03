@@ -1420,16 +1420,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 77.47) (xy 151.13 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c61d6f0-5cf6-4b49-b68d-63c72d9f4028")
-	)
-	(wire
-		(pts
 			(xy 82.55 124.46) (xy 82.55 113.03)
 		)
 		(stroke
@@ -1450,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 80.01) (xy 146.05 80.01)
+			(xy 143.51 77.47) (xy 157.48 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1587,16 +1577,6 @@
 			(type default)
 		)
 		(uuid "d7bbfe90-1be2-4ba5-8caa-7fee7bffea7c")
-	)
-	(wire
-		(pts
-			(xy 157.48 77.47) (xy 151.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a85a2c-3ae1-4628-b31f-c6b5e71d7244")
 	)
 	(wire
 		(pts
@@ -3928,7 +3908,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 77.47)
+		(at 130.81 74.93)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3944,7 +3924,7 @@
 		)
 		(uuid "730ddc54-308b-4950-8f3a-2beb2098c60b")
 		(property "Sheetname" "Piezo"
-			(at 133.35 76.7584 0)
+			(at 130.81 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3933,7 @@
 			)
 		)
 		(property "Sheetfile" "piezo.kicad_sch"
-			(at 133.35 81.8646 0)
+			(at 130.81 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3943,7 @@
 			)
 		)
 		(pin "PIEZO" input
-			(at 146.05 80.01 0)
+			(at 143.51 77.47 0)
 			(uuid "0ce13819-4b6a-4a65-a76e-1a7003e434ce")
 			(effects
 				(font
