@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "74f16313-654f-4aa8-9edd-2c79e2311c7d")
 	(paper "A4")
+	(title_block
+		(title "https://github.com/hoeken/sendit")
+		(date "2025-08-28")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
