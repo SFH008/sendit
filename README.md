@@ -3,6 +3,11 @@ ESP32 based tank level sender monitor.
 
 # Todo
 
+* order pcbs
+
 * 3d model
-  * tweak 3d print to better match board
+  * connector cutouts
+  * led pipes
+  * buzzer holes
+  * text
   * add mount point for usb power supply
