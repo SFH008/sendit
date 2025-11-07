@@ -11,8 +11,8 @@ ESP32 based tank level sender monitor.
   * Should have a jumper to enable/disable power from this port
 * switch back to ads1115
 * scale all outputs to 2.048v instead of 3.3v?
-  * voltage dividers
-  * 4-20ma shunt resistor
+  * voltage dividers - update
+  * 4-20ma shunt resistor: 100 ohm
 * change piezo to passive + add diode Huaneng QMB-09B-03
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl, etc.
 * all test points -> 1.5x0.7
