@@ -7,7 +7,7 @@
 	(title_block
 		(title "https://github.com/hoeken/sendit")
 		(date "2025-08-28")
-		(rev "B")
+		(rev "C")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2606,7 +2606,7 @@
 		)
 		(uuid "60d39a8f-aebc-4dd9-a306-68ee90bceeff")
 	)
-	(text "32v to 3.3v Voltage Divider"
+	(text "30v to 2.048v Voltage Divider"
 		(exclude_from_sim no)
 		(at 119.126 57.658 0)
 		(effects
@@ -2630,9 +2630,9 @@
 		)
 		(uuid "81da17e6-1db2-48a4-ac04-1f61461df7a4")
 	)
-	(text "Passthrough"
+	(text "Passthrough - 3.3v max\nADC Range 0-2.048v"
 		(exclude_from_sim no)
-		(at 118.872 89.408 0)
+		(at 118.618 90.424 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2678,7 +2678,7 @@
 		)
 		(uuid "a2b81b6a-c8ec-4789-a6b4-c5da0170d640")
 	)
-	(text "5v to 3.3v Voltage Divider"
+	(text "5v to 2.048v Voltage Divider"
 		(exclude_from_sim no)
 		(at 119.634 153.67 0)
 		(effects
@@ -3703,7 +3703,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C860067"
 			(at 118.11 134.62 0)
 			(effects
 				(font
@@ -4508,7 +4508,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15k 0.1%"
+		(property "Value" "2k 0.1%"
 			(at 120.65 73.66 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k 0.1%"
+		(property "Value" "10k 0.1%"
 			(at 120.65 168.91 0)
 			(effects
 				(font
@@ -4790,7 +4790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C110776"
+		(property "LCSC" "C860067"
 			(at 118.11 167.64 0)
 			(effects
 				(font
@@ -5431,7 +5431,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "130k 0.1%"
+		(property "Value" "28k 0.1%"
 			(at 120.65 66.0399 0)
 			(effects
 				(font
@@ -5677,7 +5677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "165 0.1%"
+		(property "Value" "100R 0.1%"
 			(at 120.65 43.18 0)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C870446"
+		(property "LCSC" "C728670"
 			(at 118.11 41.91 0)
 			(effects
 				(font
@@ -5829,7 +5829,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560 0.1%"
+		(property "Value" "18k 0.1%"
 			(at 120.65 161.2899 0)
 			(effects
 				(font
@@ -5865,7 +5865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C860442"
+		(property "LCSC" "C860169"
 			(at 118.11 160.02 0)
 			(effects
 				(font
@@ -6776,7 +6776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 62.23 101.6 0)
 			(effects
 				(font
@@ -7702,7 +7702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 240.03 101.6 0)
 			(effects
 				(font

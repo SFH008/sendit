@@ -7,7 +7,7 @@
 	(title_block
 		(title "https://github.com/hoeken/sendit")
 		(date "2025-08-28")
-		(rev "B")
+		(rev "C")
 	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
