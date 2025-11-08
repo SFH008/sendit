@@ -3,11 +3,9 @@ ESP32 based tank level sender monitor.
 
 # REV C Ideas
 
-* Add a buck converter to the EXT port go to from 12/24 to 5v to power the esp32
-  * Use a small chip like LV2841, AP63205, LGS5145, TX4137, LGS5148
-  * If AP63206, check out this post: https://github.com/VoronDesign/Voron-Tap/issues/42
-  * Should have a jumper to enable/disable power from this port
-* case *slightly* interferes with pluggable terminal blocks
+* case *slightly* interferes with pluggable terminal blocks - move them down .5mm
+* add 1-2 mounting holes for pcb to case bottom if possible
+* switch to SMTSO3080CTJ for 4 mounting holes to case top
 
 # REV C Changelog
 
@@ -22,3 +20,6 @@ ESP32 based tank level sender monitor.
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl, etc.
 * all test points -> 1.5x0.7
 * change piezo to passive + add diode Huaneng QMB-09B-03
+* Add a buck converter to the EXT port go to from 12/24 to 5v to power the esp32
+  * Should have a jumper to enable/disable power from this port
+  * can be used as power only or as reference or both
