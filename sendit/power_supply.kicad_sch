@@ -7403,7 +7403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF / 50v"
 			(at 121.92 118.1162 0)
 			(effects
 				(font
@@ -7412,7 +7412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.38 116.84 0)
 			(effects
 				(font
@@ -7438,16 +7438,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
-			(at 119.38 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNUM" "GRM21BR61H106KE43L"
+		(property "LCSC" ""
 			(at 119.38 116.84 0)
 			(effects
 				(font

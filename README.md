@@ -4,7 +4,8 @@ ESP32 based tank level sender monitor.
 
 # REV C Todo
 
-* add headers for spare pins?
+* switch to MT3608B for 24v boost converter
+* add headers for spare pins
   * qwiic for sure
   * 4-5 more pins?
 * double check schematic work
