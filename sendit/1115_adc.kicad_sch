@@ -1188,7 +1188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93391ad2-27fa-4e65-a46f-4e8e8d7f2fa6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 123.19 67.31 0)
 			(effects
 				(font
@@ -1238,11 +1238,11 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/8455ca3a-09fb-49d0-8692-dd30220f1ed8"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/8b22d84f-0b54-48cc-b723-35a0934e8e0a"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -1374,7 +1374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0830da-6f24-4bb3-9440-955ab7d35d2a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -1424,11 +1424,11 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/8455ca3a-09fb-49d0-8692-dd30220f1ed8"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/8b22d84f-0b54-48cc-b723-35a0934e8e0a"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

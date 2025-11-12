@@ -4,10 +4,7 @@ ESP32 based tank level sender monitor.
 
 # REV C Todo
 
-* switch to MT3608B for 24v boost converter
-* add headers for spare pins
-  * qwiic for sure
-  * 4-5 more pins?
+* remove usb hub and serial converter
 * double check schematic work
 * finish component layout
   * buck / boost converter layout
@@ -36,3 +33,5 @@ ESP32 based tank level sender monitor.
 * changed to solder jumper for adc vref selection
 * add 2 mounting holes for pcb to case bottom (M2.5)
 * switch to SMTSO3080CTJ for 4 mounting holes to case top
+* switch to MT3608B for 24v boost converter
+* added QWIIC header
