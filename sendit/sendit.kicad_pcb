@@ -2039,8 +2039,9 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C25"
-			(at 2.35 0 180)
+			(at 2.225 -2.1 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d9ac560b-7ef6-408a-9e84-707a3e5b6374")
 			(effects
 				(font
@@ -27762,7 +27763,7 @@
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e58cdb24-99b1-4085-a054-c67de0e1ebf7")
+			(uuid "9b0f9b84-7f79-4d03-974f-18ad783441a0")
 			(effects
 				(font
 					(size 1 1)
@@ -27773,7 +27774,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "359474e0-6a4f-4271-a4f3-c3caf258d09f")
+			(uuid "953a93f2-29b5-42da-9439-336c5502ab1a")
 			(effects
 				(font
 					(size 1 1)
@@ -27785,7 +27786,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "370ac534-0863-40cd-b74c-0928dbd2c79c")
+			(uuid "0fb32262-c02b-4c94-af5b-b87f539d031f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27797,7 +27798,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b8e318e-978b-4619-a9ec-89c4b450672e")
+			(uuid "b80d281e-6650-4855-8af1-9aff0a05630f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69428,6 +69429,17 @@
 		(uuid "f1d0bfe3-16d1-4d47-a3af-ba6ae5d7b486")
 	)
 	(gr_rect
+		(start 221.55 94.875)
+		(end 225.425 96.125)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fb558b2d-22fb-4b9d-b87c-1b9451685e6a")
+	)
+	(gr_rect
 		(start 114.1 74.3)
 		(end 128.1 126.3)
 		(stroke
@@ -69764,6 +69776,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "REV.C"
+		(at 223.475 95.55 0)
+		(layer "F.SilkS" knockout)
+		(uuid "1fe91106-3458-457a-9c7f-1a0529b702a1")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "32V"
 		(at 140.5 86.76 270)
 		(layer "F.SilkS" knockout)
@@ -70029,8 +70053,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "3.3"
-		(at 83.95 80.508333 0)
+	(gr_text "3.3v"
+		(at 88.95 80.6 0)
 		(layer "F.SilkS" knockout)
 		(uuid "432f2349-cbee-4055-8c5a-fd8d8e2b8dde")
 		(effects
@@ -70105,19 +70129,19 @@
 		)
 	)
 	(gr_text "SendIt"
-		(at 223.35 88.3 270)
+		(at 223.35 88 270)
 		(layer "F.SilkS" knockout)
 		(uuid "4f8a7959-6a29-45f8-a6ea-b4a9ac5b5bc6")
 		(effects
 			(font
-				(size 3 3)
+				(size 2.8 2.8)
 				(thickness 0.6)
 				(bold yes)
 			)
 		)
 	)
 	(gr_text "IN"
-		(at 205.2 116.2 90)
+		(at 205.2 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "52517705-9c36-4d2a-a5ee-4b4c5d12079f")
 		(effects
@@ -70155,7 +70179,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 219.2 116.2 90)
+		(at 219.2 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "538ef63a-fa31-4830-aee1-52fd08878f71")
 		(effects
@@ -70204,7 +70228,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 135.2 116.2 90)
+		(at 135.2 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "563d1770-3120-4a6e-ac8b-c803b541cdbd")
 		(effects
@@ -70320,7 +70344,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 191.3 116.2 90)
+		(at 191.3 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "681cd520-cabb-4827-ad72-088f5a6d7719")
 		(effects
@@ -70767,7 +70791,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 121.2 116.2 90)
+		(at 121.2 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "98be37db-ee89-44f4-b489-b14a54ad38c0")
 		(effects
@@ -70779,7 +70803,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 163.2 116.2 90)
+		(at 163.2 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "9a0de58a-5f7a-4de9-a06b-209ff52b383f")
 		(effects
@@ -70878,7 +70902,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 149.2 116.2 90)
+		(at 149.2 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a1e617ce-cfe7-4438-85f6-3189bc80f626")
 		(effects
@@ -71146,7 +71170,7 @@
 		)
 	)
 	(gr_text "IN"
-		(at 177.25 116.2 90)
+		(at 177.25 116.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c69863e7-ee99-47e6-a8b1-945a097930e6")
 		(effects
