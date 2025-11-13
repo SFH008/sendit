@@ -3617,7 +3617,7 @@
 		)
 		(uuid "017a5340-5f21-4e89-8e6c-2bab9471845a")
 	)
-	(text_box "24v to 5v BUCK CONVERTER"
+	(text_box "BUCK CONVERTER"
 		(exclude_from_sim no)
 		(at 249.428 62.23 0)
 		(size 32.512 16.764)
@@ -8570,7 +8570,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 uH"
+		(property "Value" "10 uH"
 			(at 168.91 102.4406 90)
 			(effects
 				(font
@@ -8578,7 +8578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Neosid_SMS-ME3010"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRA00050530"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -8604,7 +8604,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C354557"
+		(property "LCSC" "C177248"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -8613,7 +8613,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "CKCS3012-4.7uH/M"
+		(property "PARTNUM" "FXL0530-100-M"
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Value" "300mA / 30v"
+		(property "Value" "500mA / 30v"
 			(at 110.49 103.124 90)
 			(effects
 				(font
@@ -9319,7 +9319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 115.57 105.41 0)
 			(effects
 				(font
@@ -9347,7 +9347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22378359"
+		(property "LCSC" "C455450"
 			(at 110.49 106.68 90)
 			(effects
 				(font
