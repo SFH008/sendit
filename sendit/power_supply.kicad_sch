@@ -3894,10 +3894,22 @@
 		(uuid "7bba85a1-22ea-4390-a2a3-69e18876058b")
 	)
 	(junction
+		(at 116.84 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80e1617d-a4e1-4e12-8004-d92d4f75227f")
+	)
+	(junction
 		(at 176.53 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "846e5563-0881-4c1c-988e-d9a10447793a")
+	)
+	(junction
+		(at 128.27 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8727249d-0f77-4431-9daa-fb67d3f437ed")
 	)
 	(junction
 		(at 121.92 71.12)
@@ -4000,12 +4012,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f08792f0-0c46-4322-a803-f076ebe036f9")
-	)
-	(junction
-		(at 116.84 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0976f4d-29aa-4b3d-9d21-1766afcc2557")
 	)
 	(junction
 		(at 133.35 62.23)
@@ -4153,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 151.13) (xy 116.84 152.4)
+			(xy 116.84 151.13) (xy 116.84 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4280,16 +4286,6 @@
 			(type default)
 		)
 		(uuid "2828a243-2bf4-4b8c-b076-a14ed86fef4c")
-	)
-	(wire
-		(pts
-			(xy 116.84 152.4) (xy 116.84 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28bbc751-0fd4-4a92-89e1-9e5f3e46cbd3")
 	)
 	(wire
 		(pts
@@ -4563,6 +4559,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 168.91) (xy 128.27 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5149ab74-49d7-4796-b5c9-66f3d37084be")
+	)
+	(wire
+		(pts
 			(xy 151.13 111.76) (xy 175.26 111.76)
 		)
 		(stroke
@@ -4763,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 177.8) (xy 128.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e24f5b-dc4f-4d4d-aa08-cc80c0372b05")
+	)
+	(wire
+		(pts
 			(xy 69.85 109.22) (xy 72.39 109.22)
 		)
 		(stroke
@@ -4943,6 +4959,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 184.15) (xy 128.27 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47d97dc-0e56-4e8b-a73e-51249a25dee6")
+	)
+	(wire
+		(pts
 			(xy 175.26 104.14) (xy 181.61 104.14)
 		)
 		(stroke
@@ -5040,6 +5066,16 @@
 			(type solid)
 		)
 		(uuid "af8c9df1-bf6b-4c9d-9fe6-fbbb5f3ed697")
+	)
+	(wire
+		(pts
+			(xy 128.27 167.64) (xy 128.27 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af95bdcb-c42f-40b7-84b1-343f001f1faf")
 	)
 	(wire
 		(pts
@@ -5471,7 +5507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "005aec04-4c3c-4eb4-9331-602713d4e7a8")
-		(property "Reference" "D20"
+		(property "Reference" "D19"
 			(at 126.0475 27.94 0)
 			(effects
 				(font
@@ -5523,7 +5559,7 @@
 		(instances
 			(project ""
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D20")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5664,7 +5700,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 116.84 152.4 90)
+		(at 128.27 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5672,7 +5708,7 @@
 		(dnp no)
 		(uuid "05f96524-dfc9-43e9-a22d-275ed71fd9d2")
 		(property "Reference" "TP18"
-			(at 111.76 153.924 0)
+			(at 123.19 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5717,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 114.8079 149.86 0)
+			(at 126.2379 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 116.84 147.32 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 147.32 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5745,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 116.84 152.4 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5754,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 116.84 152.4 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5763,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 116.84 152.4 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5772,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 116.84 152.4 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5781,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 116.84 152.4 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5790,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 116.84 152.4 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +5961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10da594a-2831-4610-b87c-d86f5e7a5cb7")
-		(property "Reference" "R46"
+		(property "Reference" "R45"
 			(at 93.98 120.6499 0)
 			(effects
 				(font
@@ -6033,7 +6069,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "R46")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6308,7 +6344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1effce2a-4cfc-4f59-b8f0-69fca43d58fe")
-		(property "Reference" "D17"
+		(property "Reference" "D16"
 			(at 80.3275 100.33 0)
 			(effects
 				(font
@@ -6360,7 +6396,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D17")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -6711,7 +6747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "249e3ab1-1c29-4d71-8a33-b5f5b1f7a078")
-		(property "Reference" "TP20"
+		(property "Reference" "TP21"
 			(at 175.006 29.21 0)
 			(effects
 				(font
@@ -6808,7 +6844,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "TP20")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -7129,6 +7165,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 128.27 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3013ab01-1992-4632-aba6-059d8cae5744")
+		(property "Reference" "D20"
+			(at 132.08 174.3074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 132.08 176.8474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94869"
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73cfb65d-84f9-4ce8-91fb-ab7f0e68fdb2")
+		)
+		(pin "2"
+			(uuid "cf396159-82f8-49c9-8b8c-bf07e7769f0d")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 62.23 53.34 0)
 		(unit 1)
@@ -7138,7 +7307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3845660f-8fb7-4361-ac0f-d47e9a33c341")
-		(property "Reference" "R45"
+		(property "Reference" "R44"
 			(at 64.77 52.0699 0)
 			(effects
 				(font
@@ -7246,7 +7415,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -8008,7 +8177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52f6f8f1-9788-4f27-8a68-c02b4308ea8d")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 73.3425 151.13 0)
 			(effects
 				(font
@@ -8114,7 +8283,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -8683,6 +8852,73 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VADC")
+		(at 128.27 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "788dad0c-54df-4820-b0a4-734693248658")
+		(property "Reference" "#PWR0122"
+			(at 124.46 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VADC"
+			(at 128.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2adffae0-ca49-4a1e-8ea1-6614a6e0ff72")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -9368,7 +9604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a100d232-b238-4a8d-9a52-8f6ec2583513")
-		(property "Reference" "D18"
+		(property "Reference" "D17"
 			(at 95.25 113.3474 90)
 			(effects
 				(font
@@ -9485,7 +9721,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D18")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -10162,6 +10398,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 128.27 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd408f0d-8190-4389-85cb-e79173361aaa")
+		(property "Reference" "R46"
+			(at 130.81 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 130.81 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 128.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b296e60-13f5-48a6-b608-e3f0f8a79d82")
+		)
+		(pin "2"
+			(uuid "14720a5c-ca38-4f5b-b1b5-3d9c4f66ae10")
+		)
+		(instances
+			(project "sendit"
+				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 116.84 179.07 90)
 		(unit 1)
@@ -10170,7 +10530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d049088c-9ac0-4ffd-8ff7-0be67f913c03")
-		(property "Reference" "D19"
+		(property "Reference" "D18"
 			(at 119.38 177.8 90)
 			(effects
 				(font
@@ -10180,7 +10540,7 @@
 			)
 		)
 		(property "Value" "PESD3V3L1BA,115"
-			(at 119.38 180.34 90)
+			(at 108.966 186.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,7 +10638,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D19")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -10500,7 +10860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc605da-e57b-488b-9bbb-c8f85b584a15")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 66.04 43.4974 90)
 			(effects
 				(font
@@ -10617,7 +10977,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/336de2d2-126c-456c-9b27-fa88f8fd80ba"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)

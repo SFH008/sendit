@@ -1406,7 +1406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7934ce-7eec-4c06-9319-1f89f2997d77")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 128.27 87.63 90)
 			(effects
 				(font
@@ -1503,7 +1503,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/730ddc54-308b-4950-8f3a-2beb2098c60b"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1518,7 +1518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ce37767-f3d2-4bd1-af86-07292d8c545e")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 139.7 78.4225 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/730ddc54-308b-4950-8f3a-2beb2098c60b"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -1724,7 +1724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c0a157-b863-47d0-aa1d-afe6acdc8605")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 135.89 97.7899 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/730ddc54-308b-4950-8f3a-2beb2098c60b"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)

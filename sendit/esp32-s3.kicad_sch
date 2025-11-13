@@ -1105,189 +1105,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -3820,31 +3637,6 @@
 		)
 		(uuid bf75d399-3732-4f5e-b8aa-3e5141125c33)
 	)
-	(rectangle
-		(start 219.71 22.86)
-		(end 266.7 36.83)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid efdc0a1a-6353-405a-81ba-43da0627afb9)
-	)
-	(text "POWER LED"
-		(exclude_from_sim no)
-		(at 220.218 25.4 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "3ea5dfb1-7063-49bc-ae11-da8ee37849c9")
-	)
 	(text "BOOT CONTROL"
 		(exclude_from_sim no)
 		(at 131.572 89.154 0)
@@ -4109,16 +3901,6 @@
 			(type default)
 		)
 		(uuid "09a7a8f9-72a4-4d7b-bf88-3c26815cb59e")
-	)
-	(wire
-		(pts
-			(xy 232.41 34.29) (xy 236.22 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a70f1ad-965d-404d-8387-7185d286a9f7")
 	)
 	(wire
 		(pts
@@ -4582,16 +4364,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 34.29) (xy 245.11 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97298a66-597a-4d55-a4ae-919d4ef64c8e")
-	)
-	(wire
-		(pts
 			(xy 154.94 104.14) (xy 157.48 104.14)
 		)
 		(stroke
@@ -4769,16 +4541,6 @@
 			(type default)
 		)
 		(uuid "c596f05e-597d-4082-971d-6628e397c07f")
-	)
-	(wire
-		(pts
-			(xy 250.19 34.29) (xy 254 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6260abe-f12f-4576-b3e4-94c9af9dc248")
 	)
 	(wire
 		(pts
@@ -5122,17 +4884,6 @@
 			(justify left)
 		)
 		(uuid "16f07b1b-e949-489a-ba0f-9e65454c57f0")
-	)
-	(hierarchical_label "ESP_GND"
-		(shape input)
-		(at 254 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "182e0da9-92ec-45d5-bd30-e6b8131bafb9")
 	)
 	(hierarchical_label "GPIO8"
 		(shape input)
@@ -5739,17 +5490,6 @@
 		)
 		(uuid "f7eb742d-6b39-40d4-a8f5-101cee0d76d7")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 232.41 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fed140d8-4d30-43e9-9e25-0e9d60580851")
-	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 77.47 33.02 180)
@@ -6087,148 +5827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 240.03 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "346080d3-eb5c-4d2e-929e-c016c513fb49")
-		(property "Reference" "D5"
-			(at 239.522 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GREEN"
-			(at 239.522 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C965799"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c1a025a-e61b-49ad-b397-153b862b544a")
-		)
-		(pin "1"
-			(uuid "37287c80-b3ab-4b75-9052-228752bad5bb")
-		)
-		(instances
-			(project "ESP32-S3-Template"
-				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/2c30bc70-ed79-4c81-9563-e6b5b53d9914"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 19.05 125.73 0)
 		(unit 1)
@@ -6349,130 +5947,6 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/2c30bc70-ed79-4c81-9563-e6b5b53d9914"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 247.65 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46ede41d-5e67-4cdd-8faa-a96e1134918a")
-		(property "Reference" "R14"
-			(at 247.142 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 247.142 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 247.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 247.65 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 247.65 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 247.65 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 247.65 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 247.65 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efae2a67-b164-44e9-a90e-afc8ae7584ef")
-		)
-		(pin "2"
-			(uuid "ca458115-fbc0-4b68-95a3-695a154e6364")
-		)
-		(instances
-			(project "ESP32-S3-Template"
-				(path "/3bba1511-25ec-43a9-bde1-3bab06c08341/b44469ea-fe71-4654-ac31-ad9af31f68fa"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "brineomatic"
-				(path "/96477ae2-ef08-48f3-8dd4-fe4478541f68/602af921-0504-453c-a784-e82800e98f4c"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c/2c30bc70-ed79-4c81-9563-e6b5b53d9914"
-					(reference "R14")
 					(unit 1)
 				)
 			)
