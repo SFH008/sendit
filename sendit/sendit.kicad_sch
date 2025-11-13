@@ -2529,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 157.48 87.63)
+			(xy 153.67 90.17) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2559,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 157.48 77.47)
+			(xy 151.13 118.11) (xy 162.56 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2669,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 157.48 90.17)
+			(xy 153.67 77.47) (xy 157.48 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2821,7 +2821,7 @@
 	)
 	(global_label "ADC_ALERT{slash}RDY2"
 		(shape input)
-		(at 153.67 90.17 180)
+		(at 153.67 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2831,7 +2831,7 @@
 		)
 		(uuid "7f600f15-9d02-499f-9b4b-f77e9b59498d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4167 90.17 0)
+			(at 134.4167 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2905,7 @@
 	)
 	(global_label "ADC_ALERT{slash}RDY1"
 		(shape input)
-		(at 153.67 87.63 180)
+		(at 153.67 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2915,7 +2915,7 @@
 		)
 		(uuid "c2db031e-b2e6-4521-9f24-1fdddc2920d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4167 87.63 0)
+			(at 134.4167 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +5874,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 74.93)
+		(at 138.43 115.57)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5890,7 +5890,7 @@
 		)
 		(uuid "730ddc54-308b-4950-8f3a-2beb2098c60b")
 		(property "Sheetname" "Piezo"
-			(at 133.35 74.2184 0)
+			(at 138.43 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +5899,7 @@
 			)
 		)
 		(property "Sheetfile" "piezo.kicad_sch"
-			(at 133.35 79.3246 0)
+			(at 138.43 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5909,7 @@
 			)
 		)
 		(pin "PIEZO" input
-			(at 146.05 77.47 0)
+			(at 151.13 118.11 0)
 			(uuid "0ce13819-4b6a-4a65-a76e-1a7003e434ce")
 			(effects
 				(font

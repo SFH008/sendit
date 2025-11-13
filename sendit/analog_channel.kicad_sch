@@ -3051,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 66.04) (xy 72.39 66.04)
+			(xy 60.96 66.04) (xy 71.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3251,7 +3251,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 62.23) (xy 72.39 66.04)
+			(xy 71.12 62.23) (xy 71.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3381,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 62.23) (xy 78.74 68.58)
+			(xy 77.47 62.23) (xy 77.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3391,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 68.58) (xy 78.74 68.58)
+			(xy 60.96 68.58) (xy 77.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4395,7 +4395,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 78.74 62.23 0)
+		(at 71.12 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4404,7 +4404,7 @@
 		(fields_autoplaced yes)
 		(uuid "30718757-e94c-42a7-962b-c711691953fa")
 		(property "Reference" "#PWR019"
-			(at 78.74 66.04 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4413,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 78.74 57.15 0)
+			(at 71.12 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 62.23 0)
+			(at 71.12 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 62.23 0)
+			(at 71.12 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 78.74 62.23 0)
+			(at 71.12 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4489,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VADC")
-		(at 64.77 62.23 0)
+		(at 85.09 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4498,7 +4498,7 @@
 		(dnp no)
 		(uuid "30c70d6d-47d9-4e80-8e9f-8fafc222cb1f")
 		(property "Reference" "#PWR017"
-			(at 60.96 63.5 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4507,7 @@
 			)
 		)
 		(property "Value" "+3.3VADC"
-			(at 64.77 57.15 0)
+			(at 85.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
-			(at 64.77 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4735,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 72.39 62.23 0)
+		(at 77.47 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4744,7 +4744,7 @@
 		(fields_autoplaced yes)
 		(uuid "347be07e-ee43-4c6d-a318-758e3ed879bb")
 		(property "Reference" "#PWR018"
-			(at 72.39 66.04 0)
+			(at 77.47 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 72.39 57.15 0)
+			(at 77.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 62.23 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 62.23 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 62.23 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6150,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 85.09 62.23 0)
+		(at 64.77 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6159,7 +6159,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa37f0e8-8a79-45a7-a79c-d555fda7b122")
 		(property "Reference" "#PWR020"
-			(at 85.09 66.04 0)
+			(at 64.77 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6168,7 @@
 			)
 		)
 		(property "Value" "VEXT"
-			(at 85.09 57.15 0)
+			(at 64.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 85.09 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
