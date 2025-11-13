@@ -4,12 +4,12 @@ ESP32 based tank level sender monitor.
 
 # REV C Todo
 
+* figure out how to do footprint for smt board spacers
 * double check schematic work
-* erc
 * 3d models
-* drc
-* silkscreen
 * ground vias: components + stitching
+* bom
+* jlc placement
 
 # REV C Changelog
 
