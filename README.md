@@ -4,14 +4,12 @@ ESP32 based tank level sender monitor.
 
 # REV C Todo
 
-* select pins for extra IO
 * double check schematic work
 * erc
-* route board
 * 3d models
 * drc
 * silkscreen
-* ground via stitching
+* ground vias: components + stitching
 
 # REV C Changelog
 
