@@ -35,3 +35,5 @@ ESP32 based tank level sender monitor.
 * switch to SMTSO3080CTJ for 4 mounting holes to case top
 * switch to MT3608B for 24v boost converter
 * added QWIIC header
+* removed usb to serial and usb hub for super simple esp32-s3
+* removed jumper for ext power selection
