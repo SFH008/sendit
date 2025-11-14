@@ -6720,7 +6720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF / 50v"
+		(property "Value" "22uF / 35v"
 			(at 144.78 49.5362 0)
 			(effects
 				(font
@@ -6729,7 +6729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 142.24 48.26 0)
 			(effects
 				(font
@@ -6756,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" ""
 			(at 142.24 48.26 0)
 			(effects
 				(font
@@ -7497,7 +7497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF / 50v"
+		(property "Value" "10uF / 35v"
 			(at 118.11 118.1162 0)
 			(effects
 				(font
@@ -8907,7 +8907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF / 10v"
+		(property "Value" "22uF"
 			(at 76.2 54.6162 0)
 			(effects
 				(font
@@ -8943,7 +8943,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84419"
 			(at 73.66 53.34 0)
 			(effects
 				(font

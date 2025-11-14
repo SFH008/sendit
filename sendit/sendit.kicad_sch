@@ -5082,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x09_Odd_Even"
+		(property "Value" "Conn_02x08_Odd_Even"
 			(at 95.25 26.67 0)
 			(effects
 				(font
@@ -5119,6 +5119,15 @@
 			)
 		)
 		(property "LCSC" "C5454489"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 93.98 40.64 0)
 			(effects
 				(font
