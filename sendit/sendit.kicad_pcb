@@ -3530,14 +3530,14 @@
 			)
 		)
 	)
-	(footprint "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R"
+	(footprint "yarrboard:MagneticBuzzer_QMB-09B-03"
 		(layer "F.Cu")
 		(uuid "114e2efb-ff2e-4dd9-b726-33677f62c035")
-		(at 89.5 86)
+		(at 91.5 86)
 		(descr "Buzzer Magnetic 9mm AT-0927-TT-6-R, http://www.puiaudio.com/pdf/AT-0927-TT-6-R.pdf")
 		(tags "Buzzer Magnetic 9mm AT-0927-TT-6-R")
 		(property "Reference" "BZ1"
-			(at 1.95 -2.35 0)
+			(at 0 5.5 0)
 			(layer "F.SilkS")
 			(uuid "5fb92573-2b9e-4aa3-b30a-ec56ea646a31")
 			(effects
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 2 7 0)
+			(at 0 7 0)
 			(layer "F.Fab")
 			(uuid "682f9d09-22c0-400d-924d-7d2cedbb05a8")
 			(effects
@@ -3589,7 +3589,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f2cedcd-bee5-465b-80c4-739069c5eb68")
+			(uuid "fea56a23-4a5c-44df-8cc9-c667e0b4963b")
 			(effects
 				(font
 					(size 1 1)
@@ -3603,40 +3603,40 @@
 		(sheetfile "piezo.kicad_sch")
 		(attr through_hole)
 		(fp_circle
-			(center 2 0)
-			(end 6.62 0)
+			(center 0 0)
+			(end 4.62 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "431c56fb-97d3-4463-93e2-8820142b3910")
+			(uuid "3bbcc0f4-56bf-464a-a048-ebde3f400b33")
 		)
 		(fp_circle
-			(center 2 0)
-			(end 6.75 0)
+			(center 0 0)
+			(end 4.75 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "65c49e4e-305b-4ae0-8214-fabdbe0098dd")
+			(uuid "771f5873-db29-493e-b6b5-9a262c95db4b")
 		)
 		(fp_circle
-			(center 2 0)
-			(end 6.5 0)
+			(center 0 0)
+			(end 4.5 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "67970574-2bee-4a77-a1cb-e394ac3f4544")
+			(uuid "088071a3-53d4-4d44-8be3-12fc27f2cadb")
 		)
 		(fp_text user "+"
-			(at -1.5 -0.1 0)
+			(at -3.5 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "33a9936c-3ba4-4971-a6a2-d7fad649347d")
 			(effects
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at -1.5 -0.1 0)
+			(at -3.5 -0.1 0)
 			(layer "F.Fab")
 			(uuid "072b4c01-e7a6-4679-8b55-41d5d06703e3")
 			(effects
@@ -3658,7 +3658,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2 2 0)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "e61f5170-d971-421a-91c3-57b8d0839ee8")
 			(effects
@@ -3669,7 +3669,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at -2 0)
 			(size 1.6 1.6)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -3680,7 +3680,7 @@
 			(uuid "73c5c4c1-0f24-4c10-b8a1-07ade7ee2146")
 		)
 		(pad "2" thru_hole circle
-			(at 4 0)
+			(at 2 0)
 			(size 1.6 1.6)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -3691,7 +3691,7 @@
 			(uuid "f7b9c6dd-3981-4d09-88f0-4670b0917f10")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_PUI_AT-0927-TT-6-R.step"
+		(model "/Users/hoeken/github/yarrboard-hardware/models/Huaneng QMB-09B-03.step"
 			(offset
 				(xyz 0 0 0)
 			)

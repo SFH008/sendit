@@ -1857,7 +1857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R"
+		(property "Footprint" "yarrboard:MagneticBuzzer_QMB-09B-03"
 			(at 145.415 76.2 90)
 			(effects
 				(font

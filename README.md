@@ -5,7 +5,6 @@ ESP32 based tank level sender monitor.
 # REV C Todo
 
 * test serial out over usb / jtag port.
-* 3d models
 * bom
 * jlc placement
 
