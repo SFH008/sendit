@@ -2199,7 +2199,7 @@
 		(uuid "a519c1b2-845c-4ef6-8cb8-f24846ce3521")
 	)
 	(no_connect
-		(at 205.74 53.34)
+		(at 205.74 69.85)
 		(uuid "ad887aab-d7ab-498f-a284-8fbdccf9b8ce")
 	)
 	(no_connect
@@ -2303,36 +2303,6 @@
 			(type default)
 		)
 		(uuid "2abbcb70-5061-4a24-aae8-f0ef63a17a3a")
-	)
-	(wire
-		(pts
-			(xy 219.71 46.99) (xy 219.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2abe4922-23bd-4e80-9403-e6abc52a6795")
-	)
-	(wire
-		(pts
-			(xy 212.09 48.26) (xy 212.09 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e80704a-9aee-41cc-85f2-1232a845cdcc")
-	)
-	(wire
-		(pts
-			(xy 205.74 55.88) (xy 213.36 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ffe5de9-c426-4e83-b1d6-924e28229d24")
 	)
 	(wire
 		(pts
@@ -2586,16 +2556,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 212.09 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab82f24f-d4d8-41eb-8d93-5685c80ddfcb")
-	)
-	(wire
-		(pts
 			(xy 158.75 66.04) (xy 168.91 66.04)
 		)
 		(stroke
@@ -2666,16 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 219.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d41a2b-bdd1-4686-b17d-83f4348f4f4f")
-	)
-	(wire
-		(pts
 			(xy 72.39 121.92) (xy 76.2 121.92)
 		)
 		(stroke
@@ -2693,16 +2643,6 @@
 			(type default)
 		)
 		(uuid "d1f0f5a5-973d-47ea-8477-59a387250da4")
-	)
-	(wire
-		(pts
-			(xy 213.36 55.88) (xy 213.36 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7bbfe90-1be2-4ba5-8caa-7fee7bffea7c")
 	)
 	(wire
 		(pts
@@ -3898,72 +3838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 212.09 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30b42611-d848-47fa-aa85-ba33fa08d529")
-		(property "Reference" "#PWR09"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 212.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4985e9bb-36a8-4cd7-b9e6-12a001b06e9d")
-		)
-		(instances
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 35.56 270)
 		(unit 1)
@@ -4357,71 +4231,6 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 219.71 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fdac7be-35fc-44e8-9787-ff3a9a011e71")
-		(property "Reference" "#PWR011"
-			(at 219.71 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 219.71 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 219.71 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66bcb874-7f30-40ec-b8a7-7ebbc6047b83")
-		)
-		(instances
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5369,74 +5178,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce90b576-16b1-46bf-8fac-6605618d72d4")
-		(property "Reference" "#PWR010"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21c9746f-64b5-4959-b89a-f9215c37288b")
-		)
-		(instances
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 50.8 38.1 0)
 		(unit 1)
@@ -5995,28 +5736,8 @@
 				(hide yes)
 			)
 		)
-		(pin "3.3V" input
-			(at 205.74 50.8 0)
-			(uuid "724e5d39-9824-48ba-8fb3-2d7d240a6c9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 205.74 48.26 0)
-			(uuid "cf6f696b-08d2-43ac-8626-3738aced6e08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "EN" input
-			(at 205.74 53.34 0)
+			(at 205.74 69.85 0)
 			(uuid "bba7a343-2312-47c6-b0c5-1fee96ddb2a6")
 			(effects
 				(font
@@ -6388,16 +6109,6 @@
 		(pin "GPIO38" input
 			(at 205.74 86.36 0)
 			(uuid "bf813d0c-8848-435e-af71-174fa37597c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ESP_GND" input
-			(at 205.74 55.88 0)
-			(uuid "c509cda9-b26b-48a5-9fbf-dbe643fb1e79")
 			(effects
 				(font
 					(size 1.27 1.27)

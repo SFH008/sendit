@@ -6009,6 +6009,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C84817"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8d66a20f-53dd-4c8b-9154-6ade7ca6b004")
 		)
@@ -8270,7 +8279,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uH"
+		(property "Value" "4.7 uH"
 			(at 165.1 102.4406 90)
 			(effects
 				(font
@@ -8304,7 +8313,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C177248"
+		(property "LCSC" "C177246"
 			(at 165.1 104.14 0)
 			(effects
 				(font
@@ -8313,7 +8322,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNUM" "FXL0530-100-M"
+		(property "PARTNUM" "FXL0530-4R7-M"
 			(at 165.1 104.14 0)
 			(effects
 				(font

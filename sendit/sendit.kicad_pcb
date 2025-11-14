@@ -10566,6 +10566,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C84817"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09012e7c-c1aa-4caf-86ca-e8edd5daa614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT*23*")
 		(path "/336de2d2-126c-456c-9b27-fa88f8fd80ba/191261d0-c160-4313-9d20-52e08d33380e")
 		(sheetname "/Power Supply/")
@@ -26729,7 +26742,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uH"
+		(property "Value" "4.7 uH"
 			(at 0 3.65 0)
 			(layer "F.Fab")
 			(uuid "64d8a821-8090-4b0e-98d8-218aff8551f4")
@@ -26764,7 +26777,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C177248"
+		(property "LCSC" "C177246"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26777,7 +26790,7 @@
 				)
 			)
 		)
-		(property "PARTNUM" "FXL0530-100-M"
+		(property "PARTNUM" "FXL0530-4R7-M"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39586,7 +39599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39599,7 +39612,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Open Hardware logo, small"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39608,6 +39621,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cec9b4e7-36f2-422d-90df-d49701fe7020")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71af05b-de30-4103-b3c0-8a6f53b71003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23bf7bc8-e90a-41c1-93ee-9f3b089a1d6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9426a6da-1045-426a-9179-725ae0f297f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07a96b0b-dc48-4b92-9856-b13f2376d167")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
