@@ -1178,89 +1178,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1782,7 +1699,7 @@
 	)
 	(rectangle
 		(start 236.728 22.098)
-		(end 267.97 92.202)
+		(end 267.97 79.248)
 		(stroke
 			(width 0)
 			(type default)
@@ -3284,7 +3201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "026cecff-6a03-4743-924c-edae9dff1065")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 259.08 58.42 0)
 			(effects
 				(font
@@ -3334,7 +3251,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3447,70 +3364,6 @@
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 243.84 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0806d609-3e39-496e-aeca-b2b9aeaf9773")
-		(property "Reference" "H4"
-			(at 246.38 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 246.38 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 243.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 243.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "sendit"
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15835f60-623c-4b23-9eab-ddb53596767c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 259.08 74.93 0)
 			(effects
 				(font
@@ -3698,7 +3551,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dda6ea5-1592-4301-911c-f2b18bf5f1ab")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 105.41 107.95 0)
 			(effects
 				(font
@@ -3765,71 +3618,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 243.84 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27e87942-b91a-49c2-af4e-7afe2825090d")
-		(property "Reference" "H3"
-			(at 246.38 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 246.38 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580"
-			(at 243.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 243.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "H3")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae1e481-55a1-44d2-a7f7-4de9985019a9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR05"
 			(at 80.01 50.8 0)
 			(effects
 				(font
@@ -4030,7 +3819,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR0124")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4112,7 +3901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e514a7a-2378-41fe-ba98-689a1d7f157c")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR07"
 			(at 100.33 50.8 0)
 			(effects
 				(font
@@ -4162,7 +3951,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR0123")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4490,7 +4279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "844d8b53-1bd9-468e-b6b3-56f256d9ac64")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -4541,7 +4330,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4558,7 +4347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878f6531-58b6-43f8-b3dc-43b432b2ccd3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 105.41 100.33 0)
 			(effects
 				(font
@@ -4608,7 +4397,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4812,7 +4601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3e47c30-cb2b-4ddf-9e16-4ac1bf9ea97a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 156.21 49.53 0)
 			(effects
 				(font
@@ -4862,7 +4651,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5325,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e275442e-0239-446b-8fc3-4b2ded24d156")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 243.84 74.93 0)
 			(effects
 				(font
@@ -5375,7 +5164,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5391,7 +5180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fafd8534-ca24-4a66-b66c-e3d58dfb7e56")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 243.84 58.42 0)
 			(effects
 				(font
@@ -5441,7 +5230,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
