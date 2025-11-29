@@ -2,10 +2,6 @@
 
 ESP32 based tank level sender monitor.
 
-# REV C Todo
-
-* test serial out over usb / jtag port.
-
 # REV C Changelog
 
 * switch back to ads1115
@@ -31,3 +27,4 @@ ESP32 based tank level sender monitor.
 * added QWIIC header
 * removed usb to serial and usb hub for super simple esp32-s3
 * removed jumper for ext power selection
+* added pullup resistors on ads1115 alert pin.

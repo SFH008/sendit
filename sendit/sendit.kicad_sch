@@ -3379,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ba2c4b4-432c-437d-bc38-3feb7adc8bad")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 261.62 63.4999 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4992,7 +4992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8c43582-4687-411e-938e-541e526d4d0b")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 261.62 46.9899 0)
 			(effects
 				(font
@@ -5098,7 +5098,7 @@
 		(instances
 			(project "sendit"
 				(path "/a355e4d0-2918-44fc-be8d-2503b84c6d6c"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
