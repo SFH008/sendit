@@ -1,28 +1,37 @@
-# sendit
+# SendIt — Open Hardware ADC Multitool
 
-ESP32 based tank level sender monitor.
+SendIt is an open-hardware, open-firmware controller designed as a multi use tool for handling various inputs with a focus on DIY marine usage.  It runs on the Yarrboard Framework and provides a clean web UI for configuration, and multiple different APIs for accessing your data.
 
-# Rev D TODO
+Built on the **ESP32-S3**, SendIt has 8 channels of 16-bit ADC with 5 different types of configurable input circuits.  With this board, each channel can be individually configured to handle these types of inputs:
 
-* lm74700 reverse polarity on VEXT
-* remove pesd3.3v on adc line
-* 1k -> 4.7k on the adc input line
-* pull in the new esp32-s3 schematic w/ bigger ldo
-* wrong p/n for leds - change to green
-* 5v + 24v leds still way too bright - check resistor values and change.
-* add more thermal gnd vias for regulators
-* ideal diode ORing setup on 24v->5v output and USB 5v output
-  * Wuxi Maxinmicro MX74610SS (external fet)
-  * LM74700 (external fet, p/n re-use)
-* usb 5v output -> ideal diode.
-* bulk cap on 5v
-* expansion header -> bottom and change to smt
-* change to bigger / higher amperage chip for 5v to 24v
-  * TI TPS55340 -> modern, internal, async -> easy peasy <winner>
-  * TI TPS40211 -> modern, external, async kinda complicated
-  * TI TPS43061 -> synchronous / more complicated
-* change to bigger / higher amperage chip for 24v to 5v
-  * DIODES AP64350 (3.5A)
-  * DIODES AP64200 (2A)
-* add bottom test points to important input / outputs
-* update all p/ns per bom/ff
+* **4-20ma Transducers/Senders:** sender between +VE and GND
+* **Positive Switching:** 0-32v, voltage divider acts as pulldown when NC, switch between SIGNAL and +VE
+* **Negative Switching:** 1k ohm, top half of voltage divider acts as pullup, switch between SIGNAL and GND
+* **0-32v:** simple voltage divider, voltage wired to SIGNAL
+* **0-10k ohm:** voltage divider, external resistor wired from SIGNAL to GND
+* **0-5v:** simple voltage divider, voltage wired to SIGNAL
+* **Thermistor:** 0-10k ohm, wired as normal
+* **Raw/Passthrough:** no extra circuitry - wire your own custom circuit
+
+# Hardware
+
+## Controller Board
+
+### Core capabilities:
+
+- ESP32-S3 module with WiFi and USB-C  
+- 12–30 V DC input with onboard power regulation  
+- Can be powered by USB C or external power input
+- 8 x 16-bit ADC channels with 5 selectable circuits
+- Selectable sensor VCC voltage for each channel (3.3v, 5v, 24v, external power)
+- 30mA resettable fuse on sensor VCC
+- I²C expansion (QWIIC connector)
+- Unused I/O broken out as 2.54mm pin headers
+
+### Rev C Pinout
+
+![SendIt Rev C Pinout](/diagrams/Sendit%20Pinout%20Rev%20C.png)
+
+### ADC Input Channel
+
+![SendIt Rev C ADC Channel](/diagrams/SendIt%20ADC%20Channel%20-%20Rev%20C.png)
